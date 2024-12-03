@@ -13,14 +13,59 @@ ul, ol, li{
     list-style: none;
 }
 
+.modak-regular {
+    font-family: "Modak", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+
 body{
     background-image: url(./img/pexels-george-dolgikh-551816-1303081.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    height: 30vh;
+}
+
+.bolas .bola_vermelha{
+    margin-left: 50px;
 }
 
 .bolas .bola_dourada{
-    top: 50%;
+    top: -15px;
+    position: absolute;
+}
+
+.titulo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    width: 30vw;
+}
+
+.titulo h1{
+    font-size: 85px;
+    color: white;
+    font-family: "Modak", serif;
+    font-weight: 150;
+}
+
+main{
+    height: 100%;
+}
+
+.txt_curvado{
+    transform:translate(20%);
+}
+
+.txt_curvado h2{
+    color: #FCF5D8;
 }
