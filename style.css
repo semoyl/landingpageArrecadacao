@@ -15,5 +15,12 @@ ul, ol, li{
 
 body{
     background-image: url(./img/pexels-george-dolgikh-551816-1303081.png);
-    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bolas .bola_dourada{
+    top: 50%;
 }
